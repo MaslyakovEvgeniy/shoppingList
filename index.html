@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список Покупок</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+            <form class="form">
+                <input class="form__input" type="text" name="product" placeholder="Введите наменование продукта">
+                <button class="form__button btn" type="submit" name="form__button">Добавить</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="wrapper">
+            <h2 class="title">Список Покупок</h2>
+            <!-- preloader -->
+
+            <div class="loader">
+                <div class="inner one"></div>
+                <div class="inner two"></div>
+                <div class="inner three"></div>
+            </div>
+
+            <ul class="product-list">
+
+            </ul>
+
+            <input class="clear-list_btn btn" type="button" value="Очистить список">
+        </div>
+
+    </div>
+
+    <div class="modal" style="display: none;">
+        <div class="modal__inner">
+            <div class="modal__content">
+                <p class="modal__text">Вы, уверенны, что хотите очистить весь список?</p>
+                <button class="modal__btn true btn" type="button">Да</button>
+                <button class="modal__btn false btn" type="button">Отмена</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SERVER/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon SERVER/index.js"
+  },
+  "author": "Evgeny",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
